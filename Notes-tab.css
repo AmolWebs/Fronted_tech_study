@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    background-color: rgb(255, 65, 65);
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    margin: 60px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-image {
+    box-shadow: 2px 2px 2px black;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    height: 500px;
+    width: 300px;
+    background-color: yellow;
+    position: relative;
+}
+
+.box h2 {
+    padding: 20px;
+    border-top-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    background-color: skyblue;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    color: black;
+
+}
+
+.head-notes {
+    box-shadow: 3px 3px 3px black;
+    margin: 3px 60px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+/* Light Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* light background color */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* light thumb color */
+    border-radius: 4px;
+  }
+  
+  /* Dark Scrollbar */
+  .dark-theme ::-webkit-scrollbar-track {
+    background-color: #333; /* dark background color */
+  }
+  
+  .dark-theme ::-webkit-scrollbar-thumb {
+    background-color: #666; /* dark thumb color */
+  }
+  
+  /* Use 'dark-theme' class on body or any parent element to switch to dark theme */
+  
